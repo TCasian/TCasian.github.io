@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Link</title>
-</head>
-<body>
-    compaaa 
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sito</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Tv Series</a></li>
+                    <li><a href="#">Films</a></li>
+                    <li><a href="#">Animes</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+             <a href="#">Tv Series</a>
+             <a href="#">Films</a>
+             <a href="#">Animes</a>
+             <a href="#">About</a>
+             <a href="#">Contact</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="mobile.js"></script>
+    </body>
 </html>
